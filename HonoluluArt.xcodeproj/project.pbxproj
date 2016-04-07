@@ -14,6 +14,9 @@
 		9F9E414A1CAE3F9500D44558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E41481CAE3F9500D44558 /* LaunchScreen.storyboard */; };
 		9F9E41551CAE3F9500D44558 /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E41541CAE3F9500D44558 /* HonoluluArtTests.swift */; };
 		9F9E41601CAE3F9500D44558 /* HonoluluArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E415F1CAE3F9500D44558 /* HonoluluArtUITests.swift */; };
+		9F9E41711CAE43F400D44558 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E41701CAE43F400D44558 /* PublicArt.json */; };
+		9F9E41731CAE45EC00D44558 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E41721CAE45EC00D44558 /* Artwork.swift */; };
+		9F9E41751CAE46CC00D44558 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E41741CAE46CC00D44558 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9F9E415B1CAE3F9500D44558 /* HonoluluArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9E415F1CAE3F9500D44558 /* HonoluluArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtUITests.swift; sourceTree = "<group>"; };
 		9F9E41611CAE3F9500D44558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9E41701CAE43F400D44558 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		9F9E41721CAE45EC00D44558 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		9F9E41741CAE46CC00D44558 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				9F9E413F1CAE3F9500D44558 /* AppDelegate.swift */,
 				9F9E41411CAE3F9500D44558 /* ViewController.swift */,
+				9F9E41721CAE45EC00D44558 /* Artwork.swift */,
+				9F9E41741CAE46CC00D44558 /* VCMapView.swift */,
 				9F9E41431CAE3F9500D44558 /* Main.storyboard */,
 				9F9E41461CAE3F9500D44558 /* Assets.xcassets */,
 				9F9E41481CAE3F9500D44558 /* LaunchScreen.storyboard */,
 				9F9E414B1CAE3F9500D44558 /* Info.plist */,
+				9F9E416D1CAE435F00D44558 /* Supporting Files */,
 			);
 			path = HonoluluArt;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				9F9E41611CAE3F9500D44558 /* Info.plist */,
 			);
 			path = HonoluluArtUITests;
+			sourceTree = "<group>";
+		};
+		9F9E416D1CAE435F00D44558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9E41701CAE43F400D44558 /* PublicArt.json */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9E41711CAE43F400D44558 /* PublicArt.json in Resources */,
 				9F9E414A1CAE3F9500D44558 /* LaunchScreen.storyboard in Resources */,
 				9F9E41471CAE3F9500D44558 /* Assets.xcassets in Resources */,
 				9F9E41451CAE3F9500D44558 /* Main.storyboard in Resources */,
@@ -259,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9E41751CAE46CC00D44558 /* VCMapView.swift in Sources */,
 				9F9E41421CAE3F9500D44558 /* ViewController.swift in Sources */,
+				9F9E41731CAE45EC00D44558 /* Artwork.swift in Sources */,
 				9F9E41401CAE3F9500D44558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
